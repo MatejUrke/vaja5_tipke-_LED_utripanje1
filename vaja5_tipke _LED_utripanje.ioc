@@ -1,133 +1,313 @@
-#MicroXplorer Configuration settings - do not modify
-File.Version=6
-KeepUserPlacement=false
-Mcu.CPN=STM32F051R8T6
-Mcu.Family=STM32F0
-Mcu.IP0=NVIC
-Mcu.IP1=RCC
-Mcu.IP2=SYS
-Mcu.IPNb=3
-Mcu.Name=STM32F051R8Tx
-Mcu.Package=LQFP64
-Mcu.Pin0=PA0
-Mcu.Pin1=PB10
-Mcu.Pin10=PA14
-Mcu.Pin2=PB11
-Mcu.Pin3=PB12
-Mcu.Pin4=PB13
-Mcu.Pin5=PB14
-Mcu.Pin6=PB15
-Mcu.Pin7=PC8
-Mcu.Pin8=PC9
-Mcu.Pin9=PA13
-Mcu.PinsNb=11
-Mcu.ThirdPartyNb=0
-Mcu.UserConstants=
-Mcu.UserName=STM32F051R8Tx
-MxCube.Version=6.6.1
-MxDb.Version=DB.6.0.60
-NVIC.ForceEnableDMAVector=true
-NVIC.HardFault_IRQn=true\:0\:0\:false\:false\:true\:false\:false\:false
-NVIC.NonMaskableInt_IRQn=true\:0\:0\:false\:false\:true\:false\:false\:false
-NVIC.PendSV_IRQn=true\:0\:0\:false\:false\:true\:false\:false\:false
-NVIC.SVC_IRQn=true\:0\:0\:false\:false\:true\:false\:false\:true
-NVIC.SysTick_IRQn=true\:0\:0\:false\:false\:true\:true\:true\:false
-PA0.GPIOParameters=GPIO_Label,GPIO_ModeDefaultEXTI
-PA0.GPIO_Label=B1 [Blue PushButton]
-PA0.GPIO_ModeDefaultEXTI=GPIO_MODE_EVT_RISING
-PA0.Locked=true
-PA0.Signal=GPXTI0
-PA13.GPIOParameters=GPIO_Label
-PA13.GPIO_Label=SWDIO
-PA13.Locked=true
-PA13.Mode=Serial_Wire
-PA13.Signal=SYS_SWDIO
-PA14.GPIOParameters=GPIO_Label
-PA14.GPIO_Label=SWCLK
-PA14.Locked=true
-PA14.Mode=Serial_Wire
-PA14.Signal=SYS_SWCLK
-PB10.GPIOParameters=GPIO_Label
-PB10.GPIO_Label=T1
-PB10.Locked=true
-PB10.Signal=GPIO_Input
-PB11.GPIOParameters=GPIO_Label
-PB11.GPIO_Label=T2
-PB11.Locked=true
-PB11.Signal=GPIO_Input
-PB12.GPIOParameters=GPIO_Label
-PB12.GPIO_Label=T3
-PB12.Locked=true
-PB12.Signal=GPIO_Input
-PB13.GPIOParameters=GPIO_Label
-PB13.GPIO_Label=T4
-PB13.Locked=true
-PB13.Signal=GPIO_Input
-PB14.GPIOParameters=GPIO_Label
-PB14.GPIO_Label=T5
-PB14.Locked=true
-PB14.Signal=GPIO_Input
-PB15.GPIOParameters=GPIO_Label
-PB15.GPIO_Label=T6
-PB15.Locked=true
-PB15.Signal=GPIO_Input
-PC8.GPIOParameters=GPIO_Label
-PC8.GPIO_Label=LD4 [Blue Led]
-PC8.Locked=true
-PC8.Signal=GPIO_Output
-PC9.GPIOParameters=GPIO_Label
-PC9.GPIO_Label=LD3 [Green Led]
-PC9.Locked=true
-PC9.Signal=GPIO_Output
-PinOutPanel.RotationAngle=0
-ProjectManager.AskForMigrate=true
-ProjectManager.BackupPrevious=false
-ProjectManager.CompilerOptimize=6
-ProjectManager.ComputerToolchain=false
-ProjectManager.CoupleFile=false
-ProjectManager.CustomerFirmwarePackage=
-ProjectManager.DefaultFWLocation=true
-ProjectManager.DeletePrevious=true
-ProjectManager.DeviceId=STM32F051R8Tx
-ProjectManager.FirmwarePackage=STM32Cube FW_F0 V1.11.3
-ProjectManager.FreePins=false
-ProjectManager.HalAssertFull=false
-ProjectManager.HeapSize=0x200
-ProjectManager.KeepUserCode=true
-ProjectManager.LastFirmware=true
-ProjectManager.LibraryCopy=1
-ProjectManager.MainLocation=Core/Src
-ProjectManager.NoMain=false
-ProjectManager.PreviousToolchain=
-ProjectManager.ProjectBuild=false
-ProjectManager.ProjectFileName=vaja5_tipke _LED_utripanje.ioc
-ProjectManager.ProjectName=vaja5_tipke _LED_utripanje
-ProjectManager.RegisterCallBack=
-ProjectManager.StackSize=0x400
-ProjectManager.TargetToolchain=STM32CubeIDE
-ProjectManager.ToolChainLocation=
-ProjectManager.UnderRoot=true
-ProjectManager.functionlistsort=1-SystemClock_Config-RCC-false-HAL-false,2-MX_GPIO_Init-GPIO-false-HAL-true
-RCC.AHBFreq_Value=48000000
-RCC.APB1Freq_Value=48000000
-RCC.APB1TimFreq_Value=48000000
-RCC.CECFreq_Value=32786.88524590164
-RCC.FCLKCortexFreq_Value=48000000
-RCC.FamilyName=M
-RCC.HCLKFreq_Value=48000000
-RCC.HSICECFreq_Value=32786.88524590164
-RCC.I2SFreq_Value=48000000
-RCC.IPParameters=AHBFreq_Value,APB1Freq_Value,APB1TimFreq_Value,CECFreq_Value,FCLKCortexFreq_Value,FamilyName,HCLKFreq_Value,HSICECFreq_Value,I2SFreq_Value,MCOFreq_Value,PLLCLKFreq_Value,PLLMCOFreq_Value,PLLMUL,SYSCLKFreq_VALUE,SYSCLKSource,TimSysFreq_Value,USART1Freq_Value
-RCC.MCOFreq_Value=48000000
-RCC.PLLCLKFreq_Value=48000000
-RCC.PLLMCOFreq_Value=24000000
-RCC.PLLMUL=RCC_PLL_MUL12
-RCC.SYSCLKFreq_VALUE=48000000
-RCC.SYSCLKSource=RCC_SYSCLKSOURCE_PLLCLK
-RCC.TimSysFreq_Value=48000000
-RCC.USART1Freq_Value=48000000
-SH.GPXTI0.0=GPIO_EXTI0
-SH.GPXTI0.ConfNb=1
-board=STM32F0DISCOVERY
-boardIOC=true
-isbadioc=false
+/* USER CODE END Header */
+/* Includes ------------------------------------------------------------------*/
+#include "main.h"
+
+/* Private includes ----------------------------------------------------------*/
+/* USER CODE BEGIN Includes */
+
+/* USER CODE END Includes */
+
+/* Private typedef -----------------------------------------------------------*/
+/* USER CODE BEGIN PTD */
+
+/* USER CODE END PTD */
+
+/* Private define ------------------------------------------------------------*/
+/* USER CODE BEGIN PD */
+/* USER CODE END PD */
+
+/* Private macro -------------------------------------------------------------*/
+/* USER CODE BEGIN PM */
+
+/* USER CODE END PM */
+
+/* Private variables ---------------------------------------------------------*/
+
+/* USER CODE BEGIN PV */
+
+/* USER CODE END PV */
+
+/* Private function prototypes -----------------------------------------------*/
+void SystemClock_Config(void);
+static void MX_GPIO_Init(void);
+/* USER CODE BEGIN PFP */
+
+/* USER CODE END PFP */
+
+/* Private user code ---------------------------------------------------------*/
+/* USER CODE BEGIN 0 */
+
+/* USER CODE END 0 */
+
+/**
+  * @brief  The application entry point.
+  * @retval int
+  */
+int main(void)
+{
+  /* USER CODE BEGIN 1 */
+	 GPIO_PinState T1;
+			GPIO_PinState T2;
+			GPIO_PinState T3;
+			GPIO_PinState T4;
+			GPIO_PinState T5;
+			GPIO_PinState T6;
+			int gumb = 0;
+			int delay1;
+			int delay2;
+
+
+  /* USER CODE END 1 */
+
+  /* MCU Configuration--------------------------------------------------------*/
+
+  /* Reset of all peripherals, Initializes the Flash interface and the Systick. */
+  HAL_Init();
+
+  /* USER CODE BEGIN Init */
+
+  /* USER CODE END Init */
+
+  /* Configure the system clock */
+  SystemClock_Config();
+
+  /* USER CODE BEGIN SysInit */
+
+  /* USER CODE END SysInit */
+
+  /* Initialize all configured peripherals */
+  MX_GPIO_Init();
+  /* USER CODE BEGIN 2 */
+
+  /* USER CODE END 2 */
+
+  /* Infinite loop */
+  /* USER CODE BEGIN WHILE */
+  while (1)
+  {
+    /* USER CODE END WHILE */
+
+    /* USER CODE BEGIN 3 */
+	  T1 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_10);
+	 		  T2 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_11);
+	 		  T3 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_12);
+	 		  T4 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_13);
+	 		  T5 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_14);
+	 		  T6 = HAL_GPIO_ReadPin(GPIOB, GPIO_PIN_15);
+
+	 		  if(T1 == 1){gumb = 1;}
+	 		  if(T2 == 1){gumb = 2;}
+	 		  if(T3 == 1){gumb = 3;}
+	 		  if(T4 == 1){gumb = 4;}
+	 		  if(T5 == 1){gumb = 5;}
+	 		  if(T6 == 1){gumb = 6;}
+
+	 		  switch(gumb)
+	 		  {
+	 		  case 0:
+	 			  break;
+
+	 		  case 1:
+	 			  for ( int čas = 0;  čas <= 9; ++ čas) {
+	 				  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_9);
+	 				  HAL_Delay(500);
+	 			  }
+	 			  gumb = 0;
+	 			  break;
+
+	 		  case 2:
+	 			  for ( int čas = 0;  čas <= 9; ++ čas) {
+	 				  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_8);
+	 				  HAL_Delay(500);
+	 			  }
+	 			  gumb = 0;
+	 			  break;
+
+	 		  case 3:
+	 			  for ( int čas = 0;  čas <= 4; ++ čas) {
+	 				  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_9);
+	 				  HAL_Delay(1000);
+	 				  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_9);
+	 				  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_8);
+	 				  HAL_Delay(1000);
+	 				  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_8);
+	 			  }
+	 			  gumb = 0;
+	 			  break;
+
+	 		  case 4:
+	 			  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_8);
+	 			  HAL_Delay(1000);
+	 			  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_8);
+	 			  for ( int čas = 0;  čas <= 4; ++ čas) {
+	 				  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_9);
+	 				  HAL_Delay(300);
+	 			  }
+
+	 			  for ( int čas = 0;  čas <= 5; ++ čas) {
+	 				  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_9);
+	 				  HAL_Delay(1000);
+	 			  }
+
+	 			  for ( int čas = 0;  čas <= 5; ++ čas) {
+	 				  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_9);
+	 				  HAL_Delay(300);
+
+	 			  }
+
+	 			  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_9);
+	 			  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_8);
+	 			  HAL_Delay(1000);
+	 			  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_8);
+	 			  gumb = 0;
+	 			  break;
+
+	 		  case 5:
+	 			  delay1 = 1000;
+	 			  if (delay1  <= 1000000) {
+	 				  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_9);
+	 				  HAL_Delay(delay1);
+	 				  delay1 = delay1*2;
+
+	 			  }
+	 			  else{
+	 				  HAL_GPIO_WritePin(GPIOC, GPIO_PIN_9,GPIO_PIN_RESET);
+	 				  gumb = 0;
+	 				  break;
+	 			  }
+	 		  case 6:
+	 			  delay2 = 1;
+	 			  for ( int čas = 0;  čas <= 500; ++ čas) {
+	 				  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_9);
+	 			  	  HAL_Delay(delay2);
+	 			  	  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_9);
+	 			  	  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_8);
+	 			  	  HAL_Delay(delay2);
+	 			  	  HAL_GPIO_TogglePin(GPIOC, GPIO_PIN_8);
+	 			  	  delay2 = delay2*2;
+	 			  	  if (delay2 >= 1000){
+	 			  		  gumb = 0;
+	 			  		  break;
+	 			  	  	  }
+	 			  }
+
+
+
+	 		  }
+  }
+  /* USER CODE END 3 */
+}
+
+/**
+  * @brief System Clock Configuration
+  * @retval None
+  */
+void SystemClock_Config(void)
+{
+  RCC_OscInitTypeDef RCC_OscInitStruct = {0};
+  RCC_ClkInitTypeDef RCC_ClkInitStruct = {0};
+
+  /** Initializes the RCC Oscillators according to the specified parameters
+  * in the RCC_OscInitTypeDef structure.
+  */
+  RCC_OscInitStruct.OscillatorType = RCC_OSCILLATORTYPE_HSI;
+  RCC_OscInitStruct.HSIState = RCC_HSI_ON;
+  RCC_OscInitStruct.HSICalibrationValue = RCC_HSICALIBRATION_DEFAULT;
+  RCC_OscInitStruct.PLL.PLLState = RCC_PLL_ON;
+  RCC_OscInitStruct.PLL.PLLSource = RCC_PLLSOURCE_HSI;
+  RCC_OscInitStruct.PLL.PLLMUL = RCC_PLL_MUL12;
+  RCC_OscInitStruct.PLL.PREDIV = RCC_PREDIV_DIV1;
+  if (HAL_RCC_OscConfig(&RCC_OscInitStruct) != HAL_OK)
+  {
+    Error_Handler();
+  }
+
+  /** Initializes the CPU, AHB and APB buses clocks
+  */
+  RCC_ClkInitStruct.ClockType = RCC_CLOCKTYPE_HCLK|RCC_CLOCKTYPE_SYSCLK
+                              |RCC_CLOCKTYPE_PCLK1;
+  RCC_ClkInitStruct.SYSCLKSource = RCC_SYSCLKSOURCE_PLLCLK;
+  RCC_ClkInitStruct.AHBCLKDivider = RCC_SYSCLK_DIV1;
+  RCC_ClkInitStruct.APB1CLKDivider = RCC_HCLK_DIV1;
+
+  if (HAL_RCC_ClockConfig(&RCC_ClkInitStruct, FLASH_LATENCY_1) != HAL_OK)
+  {
+    Error_Handler();
+  }
+}
+
+/**
+  * @brief GPIO Initialization Function
+  * @param None
+  * @retval None
+  */
+static void MX_GPIO_Init(void)
+{
+  GPIO_InitTypeDef GPIO_InitStruct = {0};
+
+  /* GPIO Ports Clock Enable */
+  __HAL_RCC_GPIOA_CLK_ENABLE();
+  __HAL_RCC_GPIOB_CLK_ENABLE();
+  __HAL_RCC_GPIOC_CLK_ENABLE();
+
+  /*Configure GPIO pin Output Level */
+  HAL_GPIO_WritePin(GPIOC, LD4_Pin|LD3_Pin, GPIO_PIN_RESET);
+
+  /*Configure GPIO pin : B1_Pin */
+  GPIO_InitStruct.Pin = B1_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_EVT_RISING;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(B1_GPIO_Port, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : T1_Pin T2_Pin T3_Pin T4_Pin
+                           T5_Pin T6_Pin */
+  GPIO_InitStruct.Pin = T1_Pin|T2_Pin|T3_Pin|T4_Pin
+                          |T5_Pin|T6_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_INPUT;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  HAL_GPIO_Init(GPIOB, &GPIO_InitStruct);
+
+  /*Configure GPIO pins : LD4_Pin LD3_Pin */
+  GPIO_InitStruct.Pin = LD4_Pin|LD3_Pin;
+  GPIO_InitStruct.Mode = GPIO_MODE_OUTPUT_PP;
+  GPIO_InitStruct.Pull = GPIO_NOPULL;
+  GPIO_InitStruct.Speed = GPIO_SPEED_FREQ_LOW;
+  HAL_GPIO_Init(GPIOC, &GPIO_InitStruct);
+
+}
+
+/* USER CODE BEGIN 4 */
+
+/* USER CODE END 4 */
+
+/**
+  * @brief  This function is executed in case of error occurrence.
+  * @retval None
+  */
+void Error_Handler(void)
+{
+  /* USER CODE BEGIN Error_Handler_Debug */
+  /* User can add his own implementation to report the HAL error return state */
+  __disable_irq();
+  while (1)
+  {
+  }
+  /* USER CODE END Error_Handler_Debug */
+}
+
+#ifdef  USE_FULL_ASSERT
+/**
+  * @brief  Reports the name of the source file and the source line number
+  *         where the assert_param error has occurred.
+  * @param  file: pointer to the source file name
+  * @param  line: assert_param error line source number
+  * @retval None
+  */
+void assert_failed(uint8_t *file, uint32_t line)
+{
+  /* USER CODE BEGIN 6 */
+  /* User can add his own implementation to report the file name and line number,
+     ex: printf("Wrong parameters value: file %s on line %d\r\n", file, line) */
+  /* USER CODE END 6 */
+}
+#endif /* USE_FULL_ASSERT */
